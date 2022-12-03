@@ -3,4 +3,6 @@
 [Блок-схема](Ex000_Square/diag.drawio.png) [Код](Ex000_Square/Program.cs)
 ## Задача 1. Определить является ли первое число квадратом второго.
 Так же необходимо вернуться
-[Блок-схема](Ex001_Square2/diag.drawio.png) [Код](Ex001_Square2/Program.cs)
+
+
+
