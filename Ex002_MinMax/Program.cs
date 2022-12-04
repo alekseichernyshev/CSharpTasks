@@ -1,11 +1,10 @@
 ﻿// Задача 2 определить максимальное и минимальное число
 
-int numberA = new Random().Next(1, 1000);
-int numberB = new Random().Next(1, 1000);
-Console.WriteLine("Первое число");
-Console.WriteLine(numberA);
-Console.WriteLine("Второе число");
-Console.WriteLine(numberB);
+Console.Write("введите число и нажмите Enter\t");
+int numberA = int.Parse(Console.ReadLine());
+Console.Write("введите число и нажмите Enter\t");
+int numberB = int.Parse(Console.ReadLine());
+
 
 if (numberA > numberB)
 {
