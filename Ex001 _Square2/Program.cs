@@ -1,11 +1,10 @@
 ﻿// Задача 1. По двум заданным числам проверить является ли первое число квадратом второго
 
-int numberA = new Random().Next(5, 25);
-int numberB = new Random().Next(1, 5);
-Console.WriteLine("Первое число получилось такое:");
-Console.WriteLine(numberA);
-Console.WriteLine("Второе число получилось такое:");
-Console.WriteLine(numberB);
+Console.Write("введите число и нажмите Enter\t");
+int numberA = int.Parse(Console.ReadLine());
+Console.Write("введите число и нажмите Enter\t");
+int numberB = int.Parse(Console.ReadLine());
+
 
 if (numberA - numberB * numberB == 0)
 {
